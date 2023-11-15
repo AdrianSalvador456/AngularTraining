@@ -13,8 +13,12 @@ export class AppComponent {
   public title = 'AngularTest';
   
   constructor(){
-    
     console.log("hi");
+  // operadores de javaScript 
+  
+  const auxMap = [1,2,3,4,5].map(num => num);
+
+    
   // primero ejecuta lo que esta en el constructor en caso de angular 
   // en este caso 
   }
