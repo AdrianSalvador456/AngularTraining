@@ -13,7 +13,10 @@ export class AppComponent {
   public title = 'AngularTest';
   
   constructor(){
-
+    
+    console.log("hi");
+  // primero ejecuta lo que esta en el constructor en caso de angular 
+  // en este caso 
   }
   // La creacion de una funcion 
   // por ejemplo esta funcion para retornar: dentro de los parentesis
@@ -29,7 +32,7 @@ export class AppComponent {
   return "hi" + name;
   }
   
-  //funciones flecha//
+  //funciones flecha , Arrow function//
 
   // /*Colocar las constantes */const getName = /*Funcion*/(name: String) => //retorna{return "hi" + name;}
   // Si la funcion flecha detona una sola linea de codigo ya se tiene que colocar en una sola linea de codigo 
@@ -51,4 +54,15 @@ export class AppComponent {
 
   // const getName = num => num*2
   // tambien se puede regresar de esta manera
+  
+  // Un ejemplo de de codigo seria este: pero es mejor simplificarlo
+  // de manera mas simplificada
+  private mult(num) {
+   return num;
+  // al modificar lo que es las configuraciones "tsconfig.json" los codigos ya no me exigen
+  // que tenga que implementar el tipo de la variable
+  }
+  // CICLO DE VIDA DE COMPONENTES EN ANGULAR
 }
+
+  
