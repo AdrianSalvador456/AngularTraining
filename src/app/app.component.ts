@@ -5,7 +5,7 @@ import { prependListener } from 'node:process';
 import { __values } from 'tslib';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-person',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
